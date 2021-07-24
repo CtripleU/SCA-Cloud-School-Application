@@ -1,7 +1,7 @@
 # SCA-Cloud-School-Application
 
 My Jenkins server can be accessed here ```http://52.188.157.63:8080/``` 
->Username: ```CloudTask``` Password: ```Password_01```
+> **Username**: ```CloudTask``` **Password**: ```Password_01```
 
 
 ##  Jenkins pipeline syntax used for defining JenkinsFile
