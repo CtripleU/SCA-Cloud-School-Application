@@ -1,9 +1,6 @@
 from datetime import datetime
-import pytz
 
+now = datetime.now() 
 
-WAT = pytz.timezone('Africa/Lagos')
-now = datetime.now(WAT)
-
-current_time = now.strftime("%H:%M:%S")
-print("The time in Nigeria is", current_time)
+current_time = now.strftime("%H+:%M:%S")
+print("The GMT time right now is", current_time)
